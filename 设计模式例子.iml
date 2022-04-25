@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/享元" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/观察者" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/装饰器" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/原型" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/命令" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/中介" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/桥" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/访问者" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/代理" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/建造者" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/策略" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/模板" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/状态" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/单例" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/解释器" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/适配器" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/推卸" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/迭代器" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/抽象工厂" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/组合" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/工厂" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/备忘录" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/外观" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
