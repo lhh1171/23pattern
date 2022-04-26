@@ -4,6 +4,6 @@ class My extends Tmp {
 
     @Override
     public void yyy() {
-        System.out.println("yyyyy");
+        System.out.println("My .........yyyyy");
     }
 }

@@ -1,6 +1,7 @@
 package org;
 
 abstract class Tmp {
+
     public void xxx() {
         System.out.println("==============");
         yyy();

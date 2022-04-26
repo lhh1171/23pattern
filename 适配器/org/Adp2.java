@@ -1,4 +1,7 @@
 package org;
+
+import java.util.Random;
+
 class AAA {
     public void dosomething() {
         System.out.println("AAA");
