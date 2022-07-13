@@ -17,15 +17,13 @@ class Process1 {
     }
 
     public Status getCurrentStatus(String name) {
-        Status s = process.get(name);
-        return s;
+        return process.get(name);
     }
-
-
 
 
     public void commit(String name) {
         Status s = new Status();
+        //设置任务头
         s.setCurrentStat(Process1.head);
         process.put(name, s);
     }

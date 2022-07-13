@@ -1,6 +1,8 @@
 package org;
 
 class Status {
+    private Process_Node currentStat;
+
     public Process_Node getCurrentStat() {
         return currentStat;
     }
@@ -9,7 +11,7 @@ class Status {
         this.currentStat = currentStat;
     }
 
-    private Process_Node currentStat;
+
 
     @Override
     public String toString() {
