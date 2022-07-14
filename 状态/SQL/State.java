@@ -1,0 +1,5 @@
+package SQL;
+
+enum  State {
+    MAP_START,SET_START,LIST_START,MAP_RIGHT,START
+}

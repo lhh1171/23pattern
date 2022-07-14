@@ -11,8 +11,6 @@ class Status {
         this.currentStat = currentStat;
     }
 
-
-
     @Override
     public String toString() {
         return this.currentStat.currentStat.toString();
