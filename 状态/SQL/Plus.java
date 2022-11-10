@@ -22,9 +22,6 @@ public class Plus {
             }
             // 将字符规整成事件对象，有利于参数的传递
             Event event = Event.parseToEvent(currentChar, scanner.getIndex());
-            if (event == null) {
-                throw new IllegalStateException("unknown char '" + currentChar + "' at position " + scanner.getIndex());
-            }
             // 这里需要一个 Map 来映射状态和状态处理器
             STATE_TO_HANDLER_MAPPING.get(states.peek()).handle(event, states, result);
         }

@@ -7,6 +7,8 @@ class A implements Strategy {
     private ArrayList list = null;
     private int res;
 
+
+    @Override
     public void setList(ArrayList list) {
         this.list = list;
     }
@@ -22,6 +24,7 @@ class A implements Strategy {
         this.res = (int) list.get(0);
     }
 
+    @Override
     public int getRes() {
         return this.res;
     }

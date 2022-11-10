@@ -14,7 +14,7 @@ public class MapLeftHandler implements StateHandler {
         result.append(",");  
         result.append(event.getParsedVal());  
         // 状态机的典型处理方式，处理各种事件发生在当前状态时的逻辑  
-        switch (event.getEventType()) {  
+        switch (event.getEventType()) {
             case MAP:  
                 states.push(State.MAP_START);  
                 break;  
@@ -33,6 +33,6 @@ public class MapLeftHandler implements StateHandler {
                 // 当前状态不能接受的事件类型要抛异常中断  
                 throw new IllegalStateException("unexpected primitive char '" + event.getCharacter() + "' at position " + event.getIndex());  
             default:  
-        }  
+        }
     }  
 }

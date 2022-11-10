@@ -1,7 +1,7 @@
 package org;
 
 class Utils{
-    private static Utils utils=new Utils();
+    private static final Utils utils=new Utils();
 
     public int getId() {
         return id;

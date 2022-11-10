@@ -22,8 +22,6 @@ class manager{
 
             if (pp[i] == null) {
                 pp[i] = p;
-
-
             }
 
         }
