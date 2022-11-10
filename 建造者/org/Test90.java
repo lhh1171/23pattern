@@ -1,7 +1,8 @@
 package org;
 
 public class Test90 {
-    public static void main(String[] args) throws ClassNotFoundException {
+    public static void main(String[] args)
+            throws ClassNotFoundException {
         Builder b=new Builder(new BuildCar());
         b.build();
         Builder b1=new Builder(new Buildhouse());

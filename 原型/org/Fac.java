@@ -9,7 +9,8 @@ class Fac {
         hm.put(type, t);
     }
 
-    public static T createT(String type) throws CloneNotSupportedException {
+    public static T createT(String type)
+            throws CloneNotSupportedException {
         return (hm.get(type)).clone();
     }
 }
