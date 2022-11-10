@@ -11,6 +11,7 @@ public class ShowDepositSlip extends JPanel{
     JLabel label;
     Image image;
     JFrame frame;
+
     ShowDepositSlip(){
         setLayout(null);
         setSize(200,200);
@@ -19,6 +20,7 @@ public class ShowDepositSlip extends JPanel{
         frame=new JFrame();
         frame.add(this);
     }
+
     public void showDepositSlip(Bank bank,String number,String name,int money){
         depositSlip=bank.createDepositSlip(number,name,money);
         seal=bank.createSeal();
@@ -29,6 +31,7 @@ public class ShowDepositSlip extends JPanel{
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
+
     @Override
     public void setLocation(int a,int b){
         frame.setLocation(a,b);
