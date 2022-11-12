@@ -21,6 +21,7 @@ public class LazySingle {
 //        }
 //        return sInstance;
 //    }
+
     public static LazySingle getInstance() {
         synchronized (LazySingle.class) {
             if (sInstance == null) {

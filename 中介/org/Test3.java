@@ -30,7 +30,8 @@ class Comsumer{
     }
 }
 class MyBlockQueue{
-    private LinkedList<String> arr=new LinkedList();
+    private LinkedList<String>
+            arr=new LinkedList();
 
     public int getLimit() {
         return limit;
@@ -51,9 +52,11 @@ class MyBlockQueue{
         return arr.size();
     }
 }
+
 public class Test3 {
     public static void main(String[] args) {
-        MyBlockQueue myBlockQueue=new MyBlockQueue(3);
+        MyBlockQueue myBlockQueue =
+                new MyBlockQueue(3);
         Product p=new Product(myBlockQueue);
         Comsumer c=new Comsumer(myBlockQueue);
         System.out.println(p.pub("1"));
@@ -70,6 +73,5 @@ public class Test3 {
         System.out.println(p.pub("6"));
         System.out.println(c.sub());
         System.out.println(c.sub());
-
     }
 }

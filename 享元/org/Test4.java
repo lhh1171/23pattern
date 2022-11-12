@@ -1,7 +1,8 @@
 package org;
 
 class Method_Area{
-    private static Method_Area method_area=new Method_Area();
+    private static final Method_Area method_area=
+            new Method_Area();
     private Method_Area(){
         System.out.println("构造");
     }
